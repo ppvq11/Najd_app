@@ -14,6 +14,7 @@
 		35B8B7432B18790D009A5E39 /* Najd_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B8B7422B18790D009A5E39 /* Najd_appTests.swift */; };
 		35B8B74D2B18790D009A5E39 /* Najd_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B8B74C2B18790D009A5E39 /* Najd_appUITests.swift */; };
 		35B8B74F2B18790D009A5E39 /* Najd_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B8B74E2B18790D009A5E39 /* Najd_appUITestsLaunchTests.swift */; };
+		35B8B75C2B187A79009A5E39 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B8B75B2B187A79009A5E39 /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		35B8B7482B18790D009A5E39 /* Najd_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Najd_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35B8B74C2B18790D009A5E39 /* Najd_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Najd_appUITests.swift; sourceTree = "<group>"; };
 		35B8B74E2B18790D009A5E39 /* Najd_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Najd_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		35B8B75B2B187A79009A5E39 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		35B8B7252B18790C009A5E39 = {
 			isa = PBXGroup;
 			children = (
+				35B8B75B2B187A79009A5E39 /* SwiftUIView.swift */,
 				35B8B7302B18790C009A5E39 /* Najd_app */,
 				35B8B7412B18790D009A5E39 /* Najd_appTests */,
 				35B8B74B2B18790D009A5E39 /* Najd_appUITests */,
@@ -259,6 +262,7 @@
 			files = (
 				35B8B7342B18790C009A5E39 /* ContentView.swift in Sources */,
 				35B8B7322B18790C009A5E39 /* AppDelegate.swift in Sources */,
+				35B8B75C2B187A79009A5E39 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
