@@ -14,7 +14,15 @@
 		35B8B7432B18790D009A5E39 /* Najd_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B8B7422B18790D009A5E39 /* Najd_appTests.swift */; };
 		35B8B74D2B18790D009A5E39 /* Najd_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B8B74C2B18790D009A5E39 /* Najd_appUITests.swift */; };
 		35B8B74F2B18790D009A5E39 /* Najd_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B8B74E2B18790D009A5E39 /* Najd_appUITestsLaunchTests.swift */; };
-		35B8B75C2B187A79009A5E39 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B8B75B2B187A79009A5E39 /* SwiftUIView.swift */; };
+		35B8B75F2B187CDB009A5E39 /* coin.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 35B8B75E2B187CDB009A5E39 /* coin.usdz */; };
+		35B8B7612B187D25009A5E39 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B8B7602B187D25009A5E39 /* model.swift */; };
+		35B8B7632B187D4C009A5E39 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B8B7622B187D4C009A5E39 /* SplashScreen.swift */; };
+		35B8B7652B187D69009A5E39 /* Story1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B8B7642B187D69009A5E39 /* Story1.swift */; };
+		35B8B7672B187D7E009A5E39 /* Story2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B8B7662B187D7E009A5E39 /* Story2.swift */; };
+		35B8B7692B187D97009A5E39 /* startPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B8B7682B187D97009A5E39 /* startPage.swift */; };
+		35B8B76B2B187DB1009A5E39 /* SetTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B8B76A2B187DB1009A5E39 /* SetTimer.swift */; };
+		35B8B76D2B187DDA009A5E39 /* GameCodePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B8B76C2B187DDA009A5E39 /* GameCodePage.swift */; };
+		35B8B76F2B187DF2009A5E39 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B8B76E2B187DF1009A5E39 /* Results.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +53,15 @@
 		35B8B7482B18790D009A5E39 /* Najd_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Najd_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35B8B74C2B18790D009A5E39 /* Najd_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Najd_appUITests.swift; sourceTree = "<group>"; };
 		35B8B74E2B18790D009A5E39 /* Najd_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Najd_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		35B8B75B2B187A79009A5E39 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		35B8B75E2B187CDB009A5E39 /* coin.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = coin.usdz; sourceTree = "<group>"; };
+		35B8B7602B187D25009A5E39 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		35B8B7622B187D4C009A5E39 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		35B8B7642B187D69009A5E39 /* Story1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story1.swift; sourceTree = "<group>"; };
+		35B8B7662B187D7E009A5E39 /* Story2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story2.swift; sourceTree = "<group>"; };
+		35B8B7682B187D97009A5E39 /* startPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startPage.swift; sourceTree = "<group>"; };
+		35B8B76A2B187DB1009A5E39 /* SetTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetTimer.swift; sourceTree = "<group>"; };
+		35B8B76C2B187DDA009A5E39 /* GameCodePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCodePage.swift; sourceTree = "<group>"; };
+		35B8B76E2B187DF1009A5E39 /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +92,7 @@
 		35B8B7252B18790C009A5E39 = {
 			isa = PBXGroup;
 			children = (
-				35B8B75B2B187A79009A5E39 /* SwiftUIView.swift */,
+				35B8B75D2B187C91009A5E39 /* Models */,
 				35B8B7302B18790C009A5E39 /* Najd_app */,
 				35B8B7412B18790D009A5E39 /* Najd_appTests */,
 				35B8B74B2B18790D009A5E39 /* Najd_appUITests */,
@@ -99,6 +115,14 @@
 			children = (
 				35B8B7312B18790C009A5E39 /* AppDelegate.swift */,
 				35B8B7332B18790C009A5E39 /* ContentView.swift */,
+				35B8B7602B187D25009A5E39 /* model.swift */,
+				35B8B7622B187D4C009A5E39 /* SplashScreen.swift */,
+				35B8B7642B187D69009A5E39 /* Story1.swift */,
+				35B8B7662B187D7E009A5E39 /* Story2.swift */,
+				35B8B7682B187D97009A5E39 /* startPage.swift */,
+				35B8B76A2B187DB1009A5E39 /* SetTimer.swift */,
+				35B8B76C2B187DDA009A5E39 /* GameCodePage.swift */,
+				35B8B76E2B187DF1009A5E39 /* Results.swift */,
 				35B8B7352B18790D009A5E39 /* Assets.xcassets */,
 				35B8B7372B18790D009A5E39 /* Preview Content */,
 			);
@@ -128,6 +152,14 @@
 				35B8B74E2B18790D009A5E39 /* Najd_appUITestsLaunchTests.swift */,
 			);
 			path = Najd_appUITests;
+			sourceTree = "<group>";
+		};
+		35B8B75D2B187C91009A5E39 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				35B8B75E2B187CDB009A5E39 /* coin.usdz */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35B8B75F2B187CDB009A5E39 /* coin.usdz in Resources */,
 				35B8B7392B18790D009A5E39 /* Preview Assets.xcassets in Resources */,
 				35B8B7362B18790D009A5E39 /* Assets.xcassets in Resources */,
 			);
@@ -260,9 +293,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35B8B7672B187D7E009A5E39 /* Story2.swift in Sources */,
+				35B8B76D2B187DDA009A5E39 /* GameCodePage.swift in Sources */,
+				35B8B7652B187D69009A5E39 /* Story1.swift in Sources */,
+				35B8B7632B187D4C009A5E39 /* SplashScreen.swift in Sources */,
+				35B8B76F2B187DF2009A5E39 /* Results.swift in Sources */,
+				35B8B7692B187D97009A5E39 /* startPage.swift in Sources */,
 				35B8B7342B18790C009A5E39 /* ContentView.swift in Sources */,
+				35B8B7612B187D25009A5E39 /* model.swift in Sources */,
+				35B8B76B2B187DB1009A5E39 /* SetTimer.swift in Sources */,
 				35B8B7322B18790C009A5E39 /* AppDelegate.swift in Sources */,
-				35B8B75C2B187A79009A5E39 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
