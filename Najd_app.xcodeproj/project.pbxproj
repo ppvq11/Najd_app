@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35B8B7322B18790C009A5E39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B8B7312B18790C009A5E39 /* AppDelegate.swift */; };
+		35B8B7342B18790C009A5E39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B8B7332B18790C009A5E39 /* ContentView.swift */; };
+		35B8B7362B18790D009A5E39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B8B7352B18790D009A5E39 /* Assets.xcassets */; };
+		35B8B7392B18790D009A5E39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B8B7382B18790D009A5E39 /* Preview Assets.xcassets */; };
+		35B8B7432B18790D009A5E39 /* Najd_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B8B7422B18790D009A5E39 /* Najd_appTests.swift */; };
+		35B8B74D2B18790D009A5E39 /* Najd_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B8B74C2B18790D009A5E39 /* Najd_appUITests.swift */; };
+		35B8B74F2B18790D009A5E39 /* Najd_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B8B74E2B18790D009A5E39 /* Najd_appUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35B8B73F2B18790D009A5E39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35B8B7262B18790C009A5E39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35B8B72D2B18790C009A5E39;
+			remoteInfo = Najd_app;
+		};
+		35B8B7492B18790D009A5E39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35B8B7262B18790C009A5E39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35B8B72D2B18790C009A5E39;
+			remoteInfo = Najd_app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35B8B72E2B18790C009A5E39 /* Najd_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Najd_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35B8B7312B18790C009A5E39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		35B8B7332B18790C009A5E39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		35B8B7352B18790D009A5E39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35B8B7382B18790D009A5E39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		35B8B73E2B18790D009A5E39 /* Najd_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Najd_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35B8B7422B18790D009A5E39 /* Najd_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Najd_appTests.swift; sourceTree = "<group>"; };
+		35B8B7482B18790D009A5E39 /* Najd_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Najd_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35B8B74C2B18790D009A5E39 /* Najd_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Najd_appUITests.swift; sourceTree = "<group>"; };
+		35B8B74E2B18790D009A5E39 /* Najd_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Najd_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35B8B72B2B18790C009A5E39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35B8B73B2B18790D009A5E39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35B8B7452B18790D009A5E39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35B8B7252B18790C009A5E39 = {
+			isa = PBXGroup;
+			children = (
+				35B8B7302B18790C009A5E39 /* Najd_app */,
+				35B8B7412B18790D009A5E39 /* Najd_appTests */,
+				35B8B74B2B18790D009A5E39 /* Najd_appUITests */,
+				35B8B72F2B18790C009A5E39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35B8B72F2B18790C009A5E39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35B8B72E2B18790C009A5E39 /* Najd_app.app */,
+				35B8B73E2B18790D009A5E39 /* Najd_appTests.xctest */,
+				35B8B7482B18790D009A5E39 /* Najd_appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35B8B7302B18790C009A5E39 /* Najd_app */ = {
+			isa = PBXGroup;
+			children = (
+				35B8B7312B18790C009A5E39 /* AppDelegate.swift */,
+				35B8B7332B18790C009A5E39 /* ContentView.swift */,
+				35B8B7352B18790D009A5E39 /* Assets.xcassets */,
+				35B8B7372B18790D009A5E39 /* Preview Content */,
+			);
+			path = Najd_app;
+			sourceTree = "<group>";
+		};
+		35B8B7372B18790D009A5E39 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				35B8B7382B18790D009A5E39 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		35B8B7412B18790D009A5E39 /* Najd_appTests */ = {
+			isa = PBXGroup;
+			children = (
+				35B8B7422B18790D009A5E39 /* Najd_appTests.swift */,
+			);
+			path = Najd_appTests;
+			sourceTree = "<group>";
+		};
+		35B8B74B2B18790D009A5E39 /* Najd_appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				35B8B74C2B18790D009A5E39 /* Najd_appUITests.swift */,
+				35B8B74E2B18790D009A5E39 /* Najd_appUITestsLaunchTests.swift */,
+			);
+			path = Najd_appUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35B8B72D2B18790C009A5E39 /* Najd_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35B8B7522B18790D009A5E39 /* Build configuration list for PBXNativeTarget "Najd_app" */;
+			buildPhases = (
+				35B8B72A2B18790C009A5E39 /* Sources */,
+				35B8B72B2B18790C009A5E39 /* Frameworks */,
+				35B8B72C2B18790C009A5E39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Najd_app;
+			productName = Najd_app;
+			productReference = 35B8B72E2B18790C009A5E39 /* Najd_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35B8B73D2B18790D009A5E39 /* Najd_appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35B8B7552B18790D009A5E39 /* Build configuration list for PBXNativeTarget "Najd_appTests" */;
+			buildPhases = (
+				35B8B73A2B18790D009A5E39 /* Sources */,
+				35B8B73B2B18790D009A5E39 /* Frameworks */,
+				35B8B73C2B18790D009A5E39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35B8B7402B18790D009A5E39 /* PBXTargetDependency */,
+			);
+			name = Najd_appTests;
+			productName = Najd_appTests;
+			productReference = 35B8B73E2B18790D009A5E39 /* Najd_appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		35B8B7472B18790D009A5E39 /* Najd_appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35B8B7582B18790D009A5E39 /* Build configuration list for PBXNativeTarget "Najd_appUITests" */;
+			buildPhases = (
+				35B8B7442B18790D009A5E39 /* Sources */,
+				35B8B7452B18790D009A5E39 /* Frameworks */,
+				35B8B7462B18790D009A5E39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35B8B74A2B18790D009A5E39 /* PBXTargetDependency */,
+			);
+			name = Najd_appUITests;
+			productName = Najd_appUITests;
+			productReference = 35B8B7482B18790D009A5E39 /* Najd_appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35B8B7262B18790C009A5E39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					35B8B72D2B18790C009A5E39 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					35B8B73D2B18790D009A5E39 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 35B8B72D2B18790C009A5E39;
+					};
+					35B8B7472B18790D009A5E39 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 35B8B72D2B18790C009A5E39;
+					};
+				};
+			};
+			buildConfigurationList = 35B8B7292B18790C009A5E39 /* Build configuration list for PBXProject "Najd_app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35B8B7252B18790C009A5E39;
+			productRefGroup = 35B8B72F2B18790C009A5E39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35B8B72D2B18790C009A5E39 /* Najd_app */,
+				35B8B73D2B18790D009A5E39 /* Najd_appTests */,
+				35B8B7472B18790D009A5E39 /* Najd_appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35B8B72C2B18790C009A5E39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35B8B7392B18790D009A5E39 /* Preview Assets.xcassets in Resources */,
+				35B8B7362B18790D009A5E39 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35B8B73C2B18790D009A5E39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35B8B7462B18790D009A5E39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35B8B72A2B18790C009A5E39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35B8B7342B18790C009A5E39 /* ContentView.swift in Sources */,
+				35B8B7322B18790C009A5E39 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35B8B73A2B18790D009A5E39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35B8B7432B18790D009A5E39 /* Najd_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35B8B7442B18790D009A5E39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35B8B74F2B18790D009A5E39 /* Najd_appUITestsLaunchTests.swift in Sources */,
+				35B8B74D2B18790D009A5E39 /* Najd_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35B8B7402B18790D009A5E39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35B8B72D2B18790C009A5E39 /* Najd_app */;
+			targetProxy = 35B8B73F2B18790D009A5E39 /* PBXContainerItemProxy */;
+		};
+		35B8B74A2B18790D009A5E39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35B8B72D2B18790C009A5E39 /* Najd_app */;
+			targetProxy = 35B8B7492B18790D009A5E39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		35B8B7502B18790D009A5E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		35B8B7512B18790D009A5E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35B8B7532B18790D009A5E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Najd_app/Preview Content\"";
+				DEVELOPMENT_TEAM = DFQ2G36PPT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Muna.Najd-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35B8B7542B18790D009A5E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Najd_app/Preview Content\"";
+				DEVELOPMENT_TEAM = DFQ2G36PPT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Muna.Najd-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		35B8B7562B18790D009A5E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DFQ2G36PPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Muna.Najd-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Najd_app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Najd_app";
+			};
+			name = Debug;
+		};
+		35B8B7572B18790D009A5E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DFQ2G36PPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Muna.Najd-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Najd_app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Najd_app";
+			};
+			name = Release;
+		};
+		35B8B7592B18790D009A5E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DFQ2G36PPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Muna.Najd-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Najd_app;
+			};
+			name = Debug;
+		};
+		35B8B75A2B18790D009A5E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DFQ2G36PPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Muna.Najd-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Najd_app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35B8B7292B18790C009A5E39 /* Build configuration list for PBXProject "Najd_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35B8B7502B18790D009A5E39 /* Debug */,
+				35B8B7512B18790D009A5E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35B8B7522B18790D009A5E39 /* Build configuration list for PBXNativeTarget "Najd_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35B8B7532B18790D009A5E39 /* Debug */,
+				35B8B7542B18790D009A5E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35B8B7552B18790D009A5E39 /* Build configuration list for PBXNativeTarget "Najd_appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35B8B7562B18790D009A5E39 /* Debug */,
+				35B8B7572B18790D009A5E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35B8B7582B18790D009A5E39 /* Build configuration list for PBXNativeTarget "Najd_appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35B8B7592B18790D009A5E39 /* Debug */,
+				35B8B75A2B18790D009A5E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35B8B7262B18790C009A5E39 /* Project object */;
+}
