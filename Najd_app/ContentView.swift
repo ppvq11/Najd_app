@@ -1,9 +1,3 @@
-//
-//  ContentView.swift
-//  Najd_app
-//
-//  Created by Muna Aiman Al-hajj on 16/05/1445 AH.
-//
 
 import SwiftUI
 import RealityKit
@@ -150,6 +144,7 @@ extension CustomARview: FocusEntityDelegate {
                             self.selectedModel = self.Models[index]
                             
                             self.isPlacementEnabled = true
+                            var scale: CGFloat {.zero}
                         })//Button
                         {
                             Image(uiImage: self.Models[index].image)

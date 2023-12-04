@@ -1,10 +1,3 @@
-//
-//  model.swift
-//  Najd_app
-//
-//  Created by Muna Aiman Al-hajj on 16/05/1445 AH.
-//
-
 import UIKit
 import RealityKit
 import Combine
